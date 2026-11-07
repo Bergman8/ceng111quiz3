@@ -1,5 +1,5 @@
 #!/bin/bash
-# CENG 111 Linux Quiz 3 Solution Script
+# CENG 111 Linux Quiz 3 Solution Script (Custom AZ Meme Edition)
 
 echo "Running CENG 111 Linux Quiz 3 Solutions..."
 
@@ -11,18 +11,18 @@ cp /etc/passwd ceng100/
 cp -r courses/math119 ceng100/math
 mv test.py hw3.py
 mv courses/ceng230/grades.txt courses/ceng100/
-echo "linux is fun" >> notes.txt
+echo "pox qaşığı" >> notes.txt
 
 # Question 2
 chmod 744 bin/script.sh
 ./bin/runme.sh
-cp hidden/secret.txt .
+cp hidden/secret_meme.txt .
 cp -r hidden/archive courses/
 
 # Question 3
 ls courses > dir_list.txt
 ls courses/ceng100 | wc -l > count.txt
-grep "python" courses/ceng111/info.txt > python_info.txt
+grep "biyu" courses/ceng111/info.txt > biyu_info.txt
 find courses -name "*hw2*" >> hw_list.txt
 sort courses/ceng111/students.txt > courses/ceng111/sorted_students.txt
 
@@ -37,4 +37,4 @@ find courses/ceng140/submits -name "lab1.c" 2>/dev/null | wc -l > lab1_count.txt
 sed -i '50d' courses/math119/formulas.txt
 sed -n '10p' courses/ceng100/history.txt >> courses/ceng100/history.txt
 
-echo "Quiz 3 commands executed successfully!"
+echo "Much success! Quiz commands executed perfectly."

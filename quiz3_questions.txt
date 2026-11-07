@@ -1,7 +1,7 @@
 Middle East Technical University
 Department of Computer Engineering
 CENG 111 - Introduction to Computer Engineering Concepts
-Linux Quiz 3 (Simple Practice)
+Linux Quiz 3 (Custom AZ Meme Edition)
 
 Instructions:
 Run the commands required to accomplish the listed tasks in order.
@@ -15,18 +15,18 @@ Question-1
 5. Copy the folder named "math119" placed under the "courses" folder to the "ceng100" folder with the name "math".
 6. Change the name of the file "test.py" to "hw3.py".
 7. Move the file named "grades.txt" under "courses/ceng230" folder to the "courses/ceng100" folder.
-8. Append a line to the file named "notes.txt". The line to be appended is "linux is fun" without the quotes.
+8. Append a line to the file named "notes.txt". The line to be appended is "pox qaşığı" without the quotes.
 
 Question-2
 1. Change the permission of the file "script.sh" under "bin" folder so that the owner can read, write and execute but others (g and o) can only read.
 2. Execute the script named "runme.sh" under the "bin" folder.
-3. Copy the file named "secret.txt" under "hidden" folder to the current directory (ceng111quiz3).
+3. Copy the file named "secret_meme.txt" under "hidden" folder to the current directory (ceng111quiz3).
 4. Copy the folder named "archive" under "hidden" folder to the "courses" folder.
 
 Question-3
 1. List the names of the files/folders that are located under the "courses" folder and direct the output to a file named "dir_list.txt" under the current directory.
 2. Count the number of files/folders that are located under the "courses/ceng100/" folder and write the result to a file named "count.txt" under the current directory.
-3. Copy the lines that contain the word "python" from the file "courses/ceng111/info.txt" to the file "python_info.txt" under the current directory.
+3. Copy the lines that contain the word "biyu" from the file "courses/ceng111/info.txt" to the file "biyu_info.txt" under the current directory.
 4. Find all the files, under the "courses" folder and its subfolders recursively, that contain the word "hw2" in their names and append the output to a file named "hw_list.txt".
 5. Copy the words placed in the file named "courses/ceng111/students.txt" to a file named "courses/ceng111/sorted_students.txt" sorted alphabetically.
 
