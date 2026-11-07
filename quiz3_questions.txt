@@ -1,0 +1,41 @@
+Middle East Technical University
+Department of Computer Engineering
+CENG 111 - Introduction to Computer Engineering Concepts
+Linux Quiz 3 (Simple Practice)
+
+Instructions:
+Run the commands required to accomplish the listed tasks in order.
+Assume that your current directory is "ceng111quiz3".
+
+Question-1
+1. Create a new folder named "ceng100".
+2. Create a new file named "lab1.c" under the "ceng100" folder.
+3. Remove the file named "old_data.txt".
+4. Copy the file named "passwd" placed under the "/etc" folder to the folder named "ceng100".
+5. Copy the folder named "math119" placed under the "courses" folder to the "ceng100" folder with the name "math".
+6. Change the name of the file "test.py" to "hw3.py".
+7. Move the file named "grades.txt" under "courses/ceng230" folder to the "courses/ceng100" folder.
+8. Append a line to the file named "notes.txt". The line to be appended is "linux is fun" without the quotes.
+
+Question-2
+1. Change the permission of the file "script.sh" under "bin" folder so that the owner can read, write and execute but others (g and o) can only read.
+2. Execute the script named "runme.sh" under the "bin" folder.
+3. Copy the file named "secret.txt" under "hidden" folder to the current directory (ceng111quiz3).
+4. Copy the folder named "archive" under "hidden" folder to the "courses" folder.
+
+Question-3
+1. List the names of the files/folders that are located under the "courses" folder and direct the output to a file named "dir_list.txt" under the current directory.
+2. Count the number of files/folders that are located under the "courses/ceng100/" folder and write the result to a file named "count.txt" under the current directory.
+3. Copy the lines that contain the word "python" from the file "courses/ceng111/info.txt" to the file "python_info.txt" under the current directory.
+4. Find all the files, under the "courses" folder and its subfolders recursively, that contain the word "hw2" in their names and append the output to a file named "hw_list.txt".
+5. Copy the words placed in the file named "courses/ceng111/students.txt" to a file named "courses/ceng111/sorted_students.txt" sorted alphabetically.
+
+Question-4
+1. The folder "courses/ceng140/" contains some files. Copy the ones ending with ".c" to a new folder named "c_files" under the current directory.
+2. Copy all student submission folders starting with "e2" from "courses/ceng111/submits/" to a new folder named "year2_hw" under the current directory.
+3. Count the number of submissions ("lab1.c" files) placed under the folders "courses/ceng140/submits/eXXXXXXX/" and write it to a file named "lab1_count.txt" under the current directory.
+
+Question-5
+For this question, assume you would use the nano editor, but for automated checking, we use commands.
+1. Delete the 50th line of the file named "courses/math119/formulas.txt".
+2. Copy the 10th line of the file named "courses/ceng100/history.txt" and append it to the end of the file.
